@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8146,18 +8146,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-/* Styling for the Skills title */
-.title-s {
-  font-size: 16px;  /* Match this size to your other titles */
-  font-weight: 700; /* Bold text */
-  color: #ffffff;   /* White color */
-  /* text-transform: uppercase; Optional: Make text uppercase */
-  margin: 0;  /* Reset default margin */
-  margin-bottom: 20px; /* Space below the title */
-  padding: 0; /* Reset padding */
-}
-
-
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #000000;
@@ -8170,6 +8158,18 @@ body {
     position: fixed;
     height: 100%;
     width: 100%; }
+
+/* Styling for the Skills title */
+.title-s {
+  font-size: 16px;  /* Match this size to your other titles */
+  font-weight: 700; /* Bold text */
+  color: #ffffff;   /* White color */
+  /* text-transform: uppercase; Optional: Make text uppercase */
+  margin: 0;  /* Reset default margin */
+  margin-bottom: 20px; /* Space below the title */
+  padding: 0; /* Reset padding */
+}
+
 
 a {
   -webkit-transition: .3s all ease;
