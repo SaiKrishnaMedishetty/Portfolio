@@ -8159,15 +8159,25 @@ body {
     height: 100%;
     width: 100%; }
 
+
 /* Styling for the Skills title */
 .title-s {
-  font-size: 16px;  /* Match this size to your other titles */
+  font-size: 16px; /* Match this size to your other titles */
   font-weight: 700; /* Bold text */
-  color: #ffffff;   /* White color */
-  /* text-transform: uppercase; Optional: Make text uppercase */
-  margin: 0;  /* Reset default margin */
-  margin-bottom: 20px; /* Space below the title */
+  color: #ffffff; /* White color */
+  margin: 0; /* Reset default margin */
   padding: 0; /* Reset padding */
+}
+
+/* Add space below the Skills section */
+.skill-mf .title-s + span {
+  display: block; /* Ensure it's a block-level element */
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+/* Add space above the Certification title */
+.certification {
+  padding-top: 20px; /* Adjust the value as needed */
 }
 
 
